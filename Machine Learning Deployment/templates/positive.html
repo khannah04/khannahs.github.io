@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>RECS</title>
+        <link rel="stylesheet" href="{{ url_for('static',    filename='css/template.css') }}">
+        
+        <link href="http://fonts.cdnfonts.com/css/franchise" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Raleway" rel= "stylesheet">
+       
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/franchise');
+        </style>  
+        
+    </head>
+
+    <body>
+    
+        <h1>Great pick! Here's what we suggest: </h1>
+    
+        <table class="table_body">
+            <tr>
+                <td>1. {{ movie_names[0]}}</td>
+            </tr>
+            
+            <tr>
+                <td>2. {{ movie_names[1] }}</td>
+            </tr>
+            
+            <tr>
+                <td>3. {{ movie_names[2] }}</td> 
+            </tr>
+            
+            <tr>
+                <td>4. {{ movie_names[3] }}</td> 
+            </tr>
+            
+            <tr>
+                <td>5. {{ movie_names[4] }}</td> 
+            </tr>
+            
+            <tr>
+                <td>6. {{ movie_names[5] }}</td>
+            </tr>
+            
+            <tr>
+                <td>7. {{ movie_names[6] }}</td>   
+            </tr>
+            
+            <tr>
+                <td>8. {{ movie_names[7] }}</td> 
+            </tr>
+            
+            <tr>
+                <td>9. {{ movie_names[8] }}</td>
+            </tr>
+            
+            <tr>
+                <td>10. {{ movie_names[9] }}</td>
+            </tr>
+            
+        </table>
+        
+        <ul>
+            <li><a href= "/">Ready to get more movie suggestions?</a></li>
+        <ul>
+    
+    </body>
+    
+    
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Movie Recommender</title>
+        <link rel="stylesheet" href="{{ url_for('static',    filename='css/template.css') }}">
+        <link href="//fonts.googleapis.com/css?family=Raleway" rel= "stylesheet">
+                         
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/franchise');
+        </style>
+        
+    </head>
+    
+    <body>
+    
+    <h1 id= "recc">MOVIE RECOMMENDATION SYSTEM</h1>
+    
+    <!-- fix this -->
+    
+    <form action = "{{url_for('home')}}" method = "post">
+        <input class= "mainInput" type = "text" name = "moviename" placeholder = "Movie Name" required = "required" />
+        
+        <button type = "submit" class = "btn">Recommend</button>
+        
+        <p>Hello! Welcome to my first Machine Learning project: a Movie Recommender.
+        I combined my old knowledge of web design with my new knowledge of machine learning processes to create what you see.
+        Type in any full movie name and the recommender will give you your next watch. I hope you enjoy the movies! </p>
+   
+    </form>
+    
+    <br>
+    <br>
+    
+      
+<h4>Created by: Khannah Shaltiel</h4>
+
+
+<a href="https://lh3.googleusercontent.com/xAkio3aocWUoEBvcDFl1X871qAbew04Pm5VwrH9KVwcXZOr-6M8vAsbHHkKeHzsEwWA0QmgPxP4kT9sRhAlBFAsyzq6AqOswjyiFOjfro9uXnm1fyFL-RaeaADfymhs9KOJj5AtQ=w2400?source=screenshot.guru">
+<img src="https://lh3.googleusercontent.com/xAkio3aocWUoEBvcDFl1X871qAbew04Pm5VwrH9KVwcXZOr-6M8vAsbHHkKeHzsEwWA0QmgPxP4kT9sRhAlBFAsyzq6AqOswjyiFOjfro9uXnm1fyFL-RaeaADfymhs9KOJj5AtQ=w600-h315-p-k" /> </a>
+ 
+
+    </body>
+    
+</html>
